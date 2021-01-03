@@ -1,0 +1,15 @@
+{
+    "Port": 3000,
+    "HashLength": 12,
+    "Redis": {
+        "Connection": "localhost:6379",
+        "Password": "",
+        "Db": 0
+    },
+    "Mongo": {
+        "Uri": "mongodb://localhost:27017",
+        "DefaultTimeOut": 5,
+        "LogDbName": "logs",
+        "LogCollectionName": "redirect_logs"
+    }
+}
